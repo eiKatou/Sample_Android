@@ -1,19 +1,4 @@
-はじめてのGit
-
-○Sample_Androidプロジェクトの作成（クローン作成）
-~/GitHubの下にSample_Androidを作りたい。
-
-cd ~/GitHub/
-git clone git@github.com:eiKatou/Sample_Android.git
-
-○編集してコミットする
-vi README
-git status
-git diff
-git add .
-git commit -m 'comment'
-git show
-
-○リモートにコミットする
-git push origin master
+ShortcutLauncher
+ ショートカット一覧を取得して保存します。
+ 保存したショートカットを起動します。
 
